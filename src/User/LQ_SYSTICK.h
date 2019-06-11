@@ -1,0 +1,20 @@
+#ifndef __LQ_SYSTICK_H
+#define __LQ_SYSTICK_H
+#include "include.h"
+typedef struct
+{	
+	void (* init) (void);  
+	uint64_t (* get_time_us) (void);
+	uint32_t (* get_time_ms) (void);
+	void (* delay_us)(uint32_t);
+	void (* delay_ms)(uint16_t);
+}systime_t;
+
+extern systime_t  systime;
+void Test_Systick(void);
+
+#endif //__LQ_SYSTICK_H
+
+
+
+
