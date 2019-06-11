@@ -1,0 +1,15 @@
+"D:\IAR Systems\IAR for arm 8.2\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\IAR for arm 8.2\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"D:\Software Resourses\K66FX核心板资料\三轮组\改5.31（另一个要加各种参数）\改5.28（另一个要加各种参数）\Release\Exe\c.out" 
+
+--plugin "D:\IAR Systems\IAR for arm 8.2\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "D:\IAR Systems\IAR for arm 8.2\Embedded Workbench 8.0\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro "D:\IAR Systems\IAR for arm 8.2\Embedded Workbench 8.0\arm\config\debugger\NXP\K6x_Trace.dmac" 
+
+
+
+
